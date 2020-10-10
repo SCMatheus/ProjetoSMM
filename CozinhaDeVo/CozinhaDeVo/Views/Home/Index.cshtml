@@ -6,10 +6,25 @@
 }
 <div>
     <h2 class="titulo-de-secao">Novidades</h2>
-    <div class="container">
+    <div class="carrossel-container container">
         <div id="carrossel-wrapper">
             @Html.Partial("~/Views/Shared/_Carrossel.cshtml", Model.Destaques)
         </div>
     </div>
+
+    <h2 class="titulo-de-secao">Destaques</h2>
+    <div class="carrossel-container container">
+        <div id="carrossel-wrapper">
+            @Html.Partial("~/Views/Shared/_Carrossel.cshtml", Model.Destaques)
+        </div>
+    </div>
+
+    <h2 class="titulo-de-secao">Receitas do Chef</h2>
+    <div class="carrossel-container container">
+        <div id="carrossel-wrapper">
+            @Html.Partial("~/Views/Shared/_Carrossel.cshtml", Model.Destaques)
+        </div>
+    </div>
+
 </div>
 
