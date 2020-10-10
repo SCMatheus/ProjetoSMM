@@ -129,7 +129,9 @@
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Shared\_Carrossel.cshtml" />
+    <Content Include="Views\Shared\_CarrosselDestaques.cshtml" />
+    <Content Include="Views\Shared\_CarrosselNovidades.cshtml" />
+    <Content Include="Views\Shared\_CarrosselReceitasDoChef.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
