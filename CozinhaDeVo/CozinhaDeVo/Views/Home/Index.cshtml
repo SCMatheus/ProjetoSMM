@@ -1,9 +1,15 @@
-﻿
+﻿@using CozinhaDeVo.ViewModel.Home;
+@model HomeViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div>
-    <h2>Index</h2>
+    <h2 class="titulo-de-secao">Novidades</h2>
+    <div class="container">
+        <div id="carrossel-wrapper">
+            @Html.Partial("~/Views/Shared/_Carrossel.cshtml", Model.Destaques)
+        </div>
+    </div>
 </div>
 

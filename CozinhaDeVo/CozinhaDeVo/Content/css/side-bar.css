@@ -2,12 +2,24 @@
     text-decoration: none;
 }
 
+#carrossel-wrapper {
+    height: 600px;
+    width: 1000px;
+}
 
-.menu-itens {
+.titulo-de-secao {
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+a.list-group-item {
     background-color: #4e4f63;
     border-color: #4e4f63;
 }
-.menu-itens:hover {
+a.list-group-item:hover {
     text-decoration: none;
     background-color: #3A3C49;
     cursor: pointer;
@@ -45,14 +57,14 @@
     transition: margin .25s ease-out;
 }
 
-    #sidebar-wrapper .sidebar-heading {
-        padding: 1.30rem 1.25rem;
-        font-size: 1.5rem;
-    }
+#sidebar-wrapper .sidebar-heading {
+    padding: 1.30rem 1.25rem;
+    font-size: 1.5rem;
+}
 
-    #sidebar-wrapper .list-group {
-        width: 15rem;
-    }
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
 
 #page-content-wrapper {
     min-width: 100vw;

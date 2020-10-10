@@ -10,16 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebApplication1</title>
 
-    <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-    </environment>
     <environment exclude="Development">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-              integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link href="~/Content/css/side-bar.css" rel="stylesheet">
+        <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
     </environment>
 </head>
 <body>
@@ -37,13 +30,13 @@
             <div class="border-right bg-roxo" id="sidebar-wrapper">
                 <div class="sidebar-heading text-white titulo-menu">Tipos de Receitas</div>
                 <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item text-white menu-itens">Bolos e Tortas</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Carnes</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Saladas e Molhos</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Sopas</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Massas</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Lanches</a>
-                    <a href="#" class="list-group-item text-white menu-itens">Todas as Receitas</a>
+                    <a href="#" class="list-group-item text-white">Bolos e Tortas</a>
+                    <a href="#" class="list-group-item text-white">Carnes</a>
+                    <a href="#" class="list-group-item text-white">Saladas e Molhos</a>
+                    <a href="#" class="list-group-item text-white">Sopas</a>
+                    <a href="#" class="list-group-item text-white">Massas</a>
+                    <a href="#" class="list-group-item text-white">Lanches</a>
+                    <a href="#" class="list-group-item text-white">Todas as Receitas</a>
                 </div>
             </div>
             <!-- /#sidebar-wrapper -->
@@ -84,26 +77,9 @@
 
 
     <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/Content/js/jquery-3.5.1.min.js"></script>
+        <script src="~/Content/js/bootstrap.min.js" asp-append-version="true"></script>
     </environment>
-    <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>
