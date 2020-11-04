@@ -94,6 +94,8 @@
     <Content Include="Content\css\bootstrap-reboot.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\carrossel.css" />
+    <Content Include="Content\css\main.css" />
     <Content Include="Content\css\side-bar.css" />
     <Content Include="Content\js\bootstrap.bundle.js" />
     <Content Include="Content\js\bootstrap.bundle.min.js" />

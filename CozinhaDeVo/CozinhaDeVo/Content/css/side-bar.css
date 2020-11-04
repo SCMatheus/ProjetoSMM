@@ -1,30 +1,9 @@
-﻿h1 > a:hover {
+﻿
+
+
+h1 > a:hover {
     text-decoration: none;
 }
-
-#carrossel-wrapper {
-    height: 500px;
-    width: 1000px;
-}
-
-.carrossel-container {
-    margin-bottom: 0px;
-}
-.corpo{
-    margin-bottom: 70px;
-}
-.titulo-de-secao {
-    padding-top:5px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    background-color: #4e4f63;
-    color: white;
-    padding-right: 20px;
-}
-
 a.list-group-item {
     background-color: #4e4f63;
     border-color: #4e4f63;
