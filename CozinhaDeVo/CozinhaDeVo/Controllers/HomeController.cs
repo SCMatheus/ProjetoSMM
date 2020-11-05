@@ -9,6 +9,10 @@ namespace CozinhaDeVo.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController()
+        {
+        }
+
         // GET: Home
         public ActionResult Index()
         {
@@ -29,7 +33,7 @@ namespace CozinhaDeVo.Controllers
                 Descricao = "Receita de pudim muito gostosa, lembra a casa da vovó.",
                 Id = 2,
                 Imagem = "https://s2.glbimg.com/bhNuifvGZxugLkN2zgPLj9b1Z5s=/0x0:1280x850/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/b/x/Ij7GEVQB2p0OAyA3BoAg/3-receitas-com-3-ingredientes.jpeg",
-                Titulo = "Pudim de leite",
+                Titulo = "Pudim de leite condensado",
                 UrlReceita = string.Empty
             });
             destaques.Add(new CarrosselViewModel()

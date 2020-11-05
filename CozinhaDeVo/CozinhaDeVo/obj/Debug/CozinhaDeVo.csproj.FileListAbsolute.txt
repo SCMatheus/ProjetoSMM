@@ -76,3 +76,7 @@ D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\obj\Debug\CozinhaDeVo.csproj.CoreCo
 D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\obj\Debug\CozinhaDeVo.csproj.CopyComplete
 D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\obj\Debug\CozinhaDeVo.dll
 D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\obj\Debug\CozinhaDeVo.pdb
+D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\bin\EntityFramework.dll
+D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\bin\EntityFramework.SqlServer.dll
+D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\bin\EntityFramework.xml
+D:\GitHub\ProjetoSMM\CozinhaDeVo\CozinhaDeVo\bin\EntityFramework.SqlServer.xml
