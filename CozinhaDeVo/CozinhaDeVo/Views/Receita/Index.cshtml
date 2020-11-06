@@ -7,5 +7,28 @@
 
 <div class="receita-detalhe">
     @Html.Partial("~/Views/Receita/_CarrosselReceita.cshtml", Model)
+    <div class="receita-detalhe-content">
+        <h1>@Model.Nome</h1>
+        <p>
+            @Model.Descricao
+        </p>
+        <hr />
+        <h2>Ingredientes</h2>
+        <ul>
+            @foreach (var item in Model.Ingredientes)
+            {
+                <li>@item</li>
+            }
+        </ul>
+        <hr />
+        <h2>Modo de Preparo</h2>
+        <ol>
+            @foreach (var item in Model.ModoDePreparo)
+            {
+                <li>@item</li>
+            }
+        </ol>
+
+</div>
 </div>
 

@@ -1,0 +1,52 @@
+﻿.receita-detalhe {
+    width: 70rem;
+    margin: 6.4rem auto;
+    background: white;
+    border: 1px solid #D3E2E5;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.receita-detalhe-content {
+    padding: 2rem;
+}
+
+.receita-detalhe-content h1 {
+    color: #4D6F80;
+    font-size: 3.4rem;
+    line-height: 1.5;
+    margin-bottom: 0.4rem;
+}
+
+.receita-detalhe-content p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #5C8599;
+}
+
+.receita-detalhe-content hr {
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: #D3E2E6;
+    margin: 3.4rem 0;
+}
+
+.receita-detalhe-content h2 {
+    font-size: 2.6rem;
+    line-height: 1.5rem;
+    color: #4D6F80;
+}
+
+
+.receita-detalhe-content ul,
+.receita-detalhe-content ol {
+    margin: 2rem 0 0 3rem;
+}
+.receita-detalhe-content li {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #5C8599;
+}
+

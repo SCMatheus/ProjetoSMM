@@ -14,7 +14,7 @@
             <img class="d-block w-100" src="@Model.LinkImagem" alt="@Model.Nome">
         </div>
         <div class="carousel-item">
-             <video class="d-block w-100" src="@Model.LinkVideo" alt="@Model.Nome"> </video>
+            <iframe src="@Model.LinkVideo.Replace("watch?v=","embed/")"  frameborder="0" allowfullscreen class="video"></iframe>
         </div>
     </div>
     <a class="carousel-control-prev" href="#listaCarrosselDestaques" role="button" data-slide="prev">
