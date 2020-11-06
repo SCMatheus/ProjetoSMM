@@ -1,16 +1,32 @@
 ﻿
-
-
-h1 > a:hover {
-    text-decoration: none;
+.navbar {
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
 }
-a.list-group-item {
-    background-color: #4e4f63;
-    border-color: #4e4f63;
+
+.btn-menu {
+    background: #15B6D6;
+    color: whitesmoke;
+    transition: background-color 0.2s;
 }
-a.list-group-item:hover {
+
+.btn-menu:hover {
+    background: #17D6EB;
+}
+#icone-busca {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+    h1 > a:hover {
+        text-decoration: none;
+    }
+#sidebar-wrapper a {
+    display: block;
+    padding: .5rem .5rem .5rem 1.30rem;
+}
+#sidebar-wrapper a:hover {
     text-decoration: none;
-    background-color: #3A3C49;
+    background: #15C6D6;
     cursor: pointer;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
@@ -21,11 +37,6 @@ a.list-group-item:hover {
     padding: 10px 7px 2px 4px;
     font-weight: 700;
     font-size: 30px;
-}
-
-.bg-roxo {
-    background-color: #4e4f63;
-    border-color: #4e4f63;
 }
 
 .titulo {
@@ -45,6 +56,7 @@ a.list-group-item:hover {
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
     font-size: 1.2rem;
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
 }
 
 #sidebar-wrapper .sidebar-heading {

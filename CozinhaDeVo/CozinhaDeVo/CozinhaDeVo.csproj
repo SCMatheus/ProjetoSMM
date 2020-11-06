@@ -227,6 +227,7 @@
     <Content Include="Content\js\jquery-3.5.1.min.js" />
     <Content Include="Global.asax" />
     <Content Include="icones\bandeja.png" />
+    <Content Include="icones\Lupa.png" />
     <Content Include="icones\relogio.png" />
     <Content Include="Web.config" />
   </ItemGroup>
