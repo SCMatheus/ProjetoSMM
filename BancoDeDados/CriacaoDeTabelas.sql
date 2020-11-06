@@ -9,13 +9,14 @@ CREATE TABLE Usuarios(
 CREATE TABLE Receitas (
 	Id INT IDENTITY(1,1) PRIMARY KEY,
 	Nome VARCHAR(100) NOT NULL,
+	Tipo INT NOT NULL
 	Descricao VARCHAR(510) NOT NULL,
 	Ingredientes VARCHAR(1000) NOT NULL,
 	ModoDePreparo VARCHAR(1000) NOT NULL,
 	TempoDePreparo INT NOT NULL,
 	NumeroDePorcoes INT NOT NULL,
 	LinkImagem VARCHAR(510) NOT NULL,
-	LinkVideo VARCHAR(510)
+	LinkVideo VARCHAR(510) NOT NULL,
 )
 
 INSERT INTO Receitas (Nome, Descricao, Tipo, Ingredientes, ModoDePreparo, TempoDePreparo, NumeroDePorcoes, LinkImagem, LinkVideo)
