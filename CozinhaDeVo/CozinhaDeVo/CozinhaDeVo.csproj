@@ -245,7 +245,9 @@
     <Compile Include="Repositorios\Interfaces\IRepositorioReceita.cs" />
     <Compile Include="Repositorios\RepositorioBase.cs" />
     <Compile Include="Repositorios\RepositorioReceita.cs" />
-    <Compile Include="ViewModel\Home\CarrosselViewModel.cs" />
+    <Compile Include="Servicos\Interfaces\IServicoHome.cs" />
+    <Compile Include="Servicos\ServicoHome.cs" />
+    <Compile Include="ViewModel\Home\ReceitasHomeViewModel.cs" />
     <Compile Include="ViewModel\Home\HomeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -277,7 +279,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\img\" />
-    <Folder Include="Servicos\Interfaces\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -7,15 +7,15 @@ namespace CozinhaDeVo.ViewModel.Home
 {
     public class HomeViewModel
     {
-        public IEnumerable<CarrosselViewModel> Destaques;
-        public IEnumerable<CarrosselViewModel> Novidades;
-        public IEnumerable<CarrosselViewModel> receitasDoChef;
+        public IEnumerable<ReceitasHomeViewModel> Destaques;
+        public IEnumerable<ReceitasHomeViewModel> Novidades;
+        public IEnumerable<ReceitasHomeViewModel> receitasDoChef;
 
         public HomeViewModel()
         {
-            Destaques = new List<CarrosselViewModel>();
-            Novidades = new List<CarrosselViewModel>();
-            receitasDoChef = new List<CarrosselViewModel>();
+            Destaques = new List<ReceitasHomeViewModel>();
+            Novidades = new List<ReceitasHomeViewModel>();
+            receitasDoChef = new List<ReceitasHomeViewModel>();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿@using CozinhaDeVo.ViewModel.Home;
 
-@model IEnumerable<CarrosselViewModel>
+@model IEnumerable<ReceitasHomeViewModel>
 
 
 
@@ -17,30 +17,30 @@
         {
             if (i == 0)
             {
-                <a href="@Model.ElementAt(i).UrlReceita">
-                    <div class="carousel-item active">
+                <div class="carousel-item active">
+                    <a href="#">
                         <img class="d-block w-100" src="@Model.ElementAt(i).Imagem" alt="@Model.ElementAt(i).Titulo">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>@Model.ElementAt(i).Titulo</h5>
                             <p>@Model.ElementAt(i).Descricao</p>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             }
             else
             {
-                <a href="@Model.ElementAt(i).UrlReceita">
-                    <div class="carousel-item">
+                <div class="carousel-item">
+                    <a href="#">
                         <img class="d-block w-100" src="@Model.ElementAt(i).Imagem" alt="@Model.ElementAt(i).Titulo">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>@Model.ElementAt(i).Titulo</h5>
                             <p>@Model.ElementAt(i).Descricao</p>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
             }
-         }
-            </div>
+        }
+    </div>
     <a class="carousel-control-prev" href="#listaCarrosselDestaques" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
