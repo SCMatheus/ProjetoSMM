@@ -230,9 +230,15 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Data\CozinhaDeVoContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20201106024829_initial.cs" />
+    <Compile Include="Migrations\20201106024829_initial.Designer.cs">
+      <DependentUpon>20201106024829_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\CozinhaDeVoContextModelSnapshot.cs" />
     <Compile Include="Models\Receita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\Home\CarrosselViewModel.cs" />
@@ -267,7 +273,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\img\" />
-    <Folder Include="Data\" />
     <Folder Include="Servicos\Interfaces\" />
   </ItemGroup>
   <PropertyGroup>
