@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using CozinhaDeVo.Enumeradores;
 
 namespace CozinhaDeVo.Models
 {
@@ -14,6 +15,8 @@ namespace CozinhaDeVo.Models
 		public string Nome { get; set; }
 		[Required]
 		public string Descricao { get; set; }
+		[Required]
+		public EnumTipoReceita Tipo { get; set; }
 		[Required]
 		public string[] Ingredientes { get; set; }
 		[Required]

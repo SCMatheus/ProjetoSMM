@@ -14,6 +14,7 @@ namespace CozinhaDeVo.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(nullable: false),
                     Descricao = table.Column<string>(nullable: false),
+                    Tipo = table.Column<int>(nullable: false),
                     Ingredientes = table.Column<string>(nullable: false),
                     ModoDePreparo = table.Column<string>(nullable: false),
                     TempoDePreparo = table.Column<int>(nullable: false),

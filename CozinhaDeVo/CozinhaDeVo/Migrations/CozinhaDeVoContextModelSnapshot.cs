@@ -55,6 +55,9 @@ namespace CozinhaDeVo.Migrations
                     b.Property<int>("TempoDePreparo")
                         .HasColumnType("int");
 
+                    b.Property<int>("Tipo")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Receitas");

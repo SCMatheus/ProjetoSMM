@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CozinhaDeVo.Migrations
 {
     [DbContext(typeof(CozinhaDeVoContext))]
-    [Migration("20201106024829_initial")]
+    [Migration("20201106154433_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,6 +55,9 @@ namespace CozinhaDeVo.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("TempoDePreparo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Tipo")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

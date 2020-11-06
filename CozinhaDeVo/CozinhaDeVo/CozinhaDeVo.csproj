@@ -231,12 +231,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\CozinhaDeVoContext.cs" />
+    <Compile Include="Enumeradores\EnumTipoReceita.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20201106024829_initial.cs" />
-    <Compile Include="Migrations\20201106024829_initial.Designer.cs">
-      <DependentUpon>20201106024829_initial.cs</DependentUpon>
+    <Compile Include="Migrations\20201106154433_initial.cs" />
+    <Compile Include="Migrations\20201106154433_initial.designer.cs">
+      <DependentUpon>20201106154433_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\CozinhaDeVoContextModelSnapshot.cs" />
     <Compile Include="Models\Receita.cs" />
