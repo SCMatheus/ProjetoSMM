@@ -59,9 +59,9 @@ h1 > a:hover {
 }
 
 .logo-menu img {
-    margin-bottom: 0.5rem;
-    width: 2rem;
-    height: 2rem;
+    margin-bottom: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .logo-menu {
@@ -107,6 +107,15 @@ h1 > a:hover {
         margin-top: 1rem;
         width: 20rem;
     }
+.item-lista {
+    margin-bottom: 1rem;
+    color:whitesmoke;
+}
+
+.item-lista:hover {
+    text-decoration: none !important;
+    color:whitesmoke;
+}
 
 #page-content-wrapper {
     min-width: 100vw;
