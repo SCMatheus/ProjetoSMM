@@ -4,22 +4,28 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div>
-    <h2 class="titulo-de-secao">Novidades</h2>
+<div class="home-container">
+    <div class="secao">
+        <h2 class="titulo-de-secao">Novidades</h2>
+    </div>
     <div class="carrossel-container container">
         <div id="carrossel-wrapper">
             @Html.Partial("~/Views/Shared/_CarrosselNovidades.cshtml", Model.Novidades)
         </div>
     </div>
 
-    <h2 class="titulo-de-secao">Destaques</h2>
+    <div class="secao">
+        <h2 class="titulo-de-secao">Destques</h2>
+    </div>
     <div class="carrossel-container container">
         <div id="carrossel-wrapper">
             @Html.Partial("~/Views/Shared/_CarrosselDestaques.cshtml", Model.Destaques)
         </div>
     </div>
 
-    <h2 class="titulo-de-secao">Receitas do Chef</h2>
+    <div class="secao">
+        <h2 class="titulo-de-secao">Receitas do Chef</h2>
+    </div>
     <div class="carrossel-container container">
         <div id="carrossel-wrapper">
             @Html.Partial("~/Views/Shared/_CarrosselReceitasDoChef.cshtml", Model.receitasDoChef)

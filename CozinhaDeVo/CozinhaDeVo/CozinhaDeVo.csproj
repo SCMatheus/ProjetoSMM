@@ -229,6 +229,7 @@
     <Content Include="icones\bandeja.png" />
     <Content Include="icones\Lupa.png" />
     <Content Include="icones\relogio.png" />
+    <Content Include="icones\vovo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -9,39 +9,76 @@
     transition: background-color 0.2s;
 }
 
-.btn-menu:hover {
-    background: #17D6EB;
-}
+    .btn-menu:hover {
+        background: #17D6EB;
+    }
+
 #icone-busca {
     width: 1.4rem;
     height: 1.4rem;
 }
 
-    h1 > a:hover {
-        text-decoration: none;
-    }
+h1 > a:hover {
+    text-decoration: none;
+}
+
 #sidebar-wrapper a {
     display: block;
     padding: .5rem .5rem .5rem 1.30rem;
 }
-#sidebar-wrapper a:hover {
-    text-decoration: none;
-    background: #15C6D6;
-    cursor: pointer;
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;
-}
+
+    #sidebar-wrapper a:hover {
+        text-decoration: none;
+        background: #15C6D6;
+        cursor: pointer;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
 .titulo-menu {
     padding: 10px 7px 2px 4px;
     font-weight: 700;
     font-size: 30px;
 }
 
+.tutilo-menu {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.logo-menu img {
+    margin-bottom: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.logo-menu {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+    .logo-menu a:hover {
+        text-decoration: none;
+    }
+
 .titulo {
     font-weight: 700;
     font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 0.5rem;
 }
 
 #wrapper {
@@ -59,14 +96,14 @@
     background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
 }
 
-#sidebar-wrapper .sidebar-heading {
-    padding: 1.30rem 1.25rem;
-    font-size: 1.5rem;
-}
+    #sidebar-wrapper .sidebar-heading {
+        padding: 1.30rem 1.25rem;
+        font-size: 1.5rem;
+    }
 
-#sidebar-wrapper .list-group {
-    width: 15rem;
-}
+    #sidebar-wrapper .list-group {
+        width: 15rem;
+    }
 
 #page-content-wrapper {
     min-width: 100vw;
@@ -89,6 +126,7 @@
     #wrapper.toggled #sidebar-wrapper {
         margin-left: -15rem;
     }
+
     .footer {
         position: fixed;
         left: 0;
