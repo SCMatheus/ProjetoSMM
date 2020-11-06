@@ -230,6 +230,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReceitaController.cs" />
     <Compile Include="Data\CozinhaDeVoContext.cs" />
     <Compile Include="Enumeradores\EnumTipoReceita.cs" />
     <Compile Include="Global.asax.cs">
@@ -246,8 +247,11 @@
     <Compile Include="Repositorios\Interfaces\IRepositorioReceita.cs" />
     <Compile Include="Repositorios\RepositorioBase.cs" />
     <Compile Include="Repositorios\RepositorioReceita.cs" />
+    <Compile Include="Servicos\Interfaces\IServicoReceita.cs" />
     <Compile Include="Servicos\Interfaces\IServicoHome.cs" />
+    <Compile Include="Servicos\ServicoReceita.cs" />
     <Compile Include="Servicos\ServicoHome.cs" />
+    <Compile Include="ViewModel\Receita\ReceitaViewModel.cs" />
     <Compile Include="ViewModel\Home\ReceitasHomeViewModel.cs" />
     <Compile Include="ViewModel\Home\HomeViewModel.cs" />
   </ItemGroup>
@@ -270,6 +274,8 @@
     <Content Include="Views\Shared\_CarrosselDestaques.cshtml" />
     <Content Include="Views\Shared\_CarrosselNovidades.cshtml" />
     <Content Include="Views\Shared\_CarrosselReceitasDoChef.cshtml" />
+    <Content Include="Views\Receita\Index.cshtml" />
+    <Content Include="Views\Receita\_CarrosselReceita.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

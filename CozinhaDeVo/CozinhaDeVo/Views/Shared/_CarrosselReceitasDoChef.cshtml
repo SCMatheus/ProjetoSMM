@@ -18,7 +18,7 @@
             if (i == 0)
             {
                 <div class="carousel-item active">
-                    <a href="#">
+                    <a href='@Url.Action("Index", "Receita", new { id = Model.ElementAt(i).Id })'>
                         <img class="d-block w-100" src="@Model.ElementAt(i).Imagem" alt="@Model.ElementAt(i).Titulo">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>@Model.ElementAt(i).Titulo</h5>
@@ -30,7 +30,7 @@
             else
             {
                 <div class="carousel-item">
-                    <a href="#">
+                    <a href='@Url.Action("Index", "Receita", new { id = Model.ElementAt(i).Id })'>
                         <img class="d-block w-100" src="@Model.ElementAt(i).Imagem" alt="@Model.ElementAt(i).Titulo">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>@Model.ElementAt(i).Titulo</h5>

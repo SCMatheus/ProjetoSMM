@@ -1,0 +1,11 @@
+﻿@using CozinhaDeVo.ViewModel.Receita;
+@model ReceitaViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="receita-detalhe">
+    @Html.Partial("~/Views/Receita/_CarrosselReceita.cshtml", Model)
+</div>
+
