@@ -8,6 +8,19 @@
 <div class="receita-detalhe">
     @Html.Partial("~/Views/Receita/_CarrosselReceita.cshtml", Model)
     <div class="receita-detalhe-content">
+        <div class="icons">
+            <div class="preparo">
+                <img src="~/icones/relogio.png" alt="Tempo de Preparo" />
+                <p>Preparo</p>
+                <span>@Model.TempoDePreparo Min</span>
+            </div>
+            <div class="porcoes">
+                <img src="~/icones/bandeja.png" alt="Porções" />
+                <p>Porções</p>
+                <span>@Model.NumeroDePorcoes</span>
+            </div>
+        </div>
+
         <h1>@Model.Nome</h1>
         <p>
             @Model.Descricao

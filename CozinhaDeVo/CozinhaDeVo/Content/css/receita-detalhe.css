@@ -11,6 +11,32 @@
     padding: 2rem;
 }
 
+.icons {
+    width: 70%;
+    height: 10rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.icons img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.icons p,
+.icons span {
+    display: block;
+    font-size: 1.4rem !important;
+    line-height: 0.5 !important;
+    margin-bottom: 1rem !important;
+    color: #5C8599;
+    text-align: center;
+}
+
 .receita-detalhe-content h1 {
     color: #4D6F80;
     font-size: 3.4rem;
