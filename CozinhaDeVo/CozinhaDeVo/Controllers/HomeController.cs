@@ -22,8 +22,8 @@ namespace CozinhaDeVo.Controllers
         {
             var model = new HomeViewModel();
             var destaques = _servicoHome.GetReceitasDestaques();
-            var novidades = new List<ReceitasHomeViewModel>();
-            var receitasDoChef = new List<ReceitasHomeViewModel>();
+            var novidades = _servicoHome.GetReceitasNovidades();
+            var receitasDoChef = _servicoHome.GetReceitasDoChef();
             /*destaques.Add(new ReceitasHomeViewModel()
             {
                 Descricao = "Receita simples de pão de queijo de vó.",
@@ -44,7 +44,7 @@ namespace CozinhaDeVo.Controllers
                 Id = 3,
                 Imagem = "https://cdn.guiadacozinha.com.br/wp-content/uploads/2020/01/receitas-faceis-para-quaresma.jpg",
                 Titulo = "Lasanha de carne",
-            });*/
+            });
 
             novidades.Add(new ReceitasHomeViewModel()
             {
@@ -88,7 +88,7 @@ namespace CozinhaDeVo.Controllers
                 Id = 9,
                 Imagem = "https://www.imoveweb.com.br/wp-content/uploads/2020/10/receitas-de-bolinho-de-mandioca-com-carne-moida-0.jpg",
                 Titulo = "Bolinho de mandioca",
-            });
+            });*/
 
             model.Destaques = destaques;
             model.Novidades = novidades;

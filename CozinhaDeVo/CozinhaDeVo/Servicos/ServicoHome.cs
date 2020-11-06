@@ -35,5 +35,41 @@ namespace CozinhaDeVo.Servicos
             }
             return destaques;
         }
+
+        public List<ReceitasHomeViewModel> GetReceitasDoChef()
+        {
+            var listaReceitas = _repositorioReceita.GetAll().ToList();
+
+            List<ReceitasHomeViewModel> doChef = new List<ReceitasHomeViewModel>();
+            for (int i = 3; i <= 5; i++)
+            {
+                doChef.Add(new ReceitasHomeViewModel()
+                {
+                    Id = listaReceitas.ElementAt(i).Id,
+                    Descricao = listaReceitas.ElementAt(i).Descricao,
+                    Titulo = listaReceitas.ElementAt(i).Nome,
+                    Imagem = listaReceitas.ElementAt(i).LinkImagem,
+                });
+            }
+            return doChef;
+        }
+
+        public List<ReceitasHomeViewModel> GetReceitasNovidades()
+        {
+            var listaReceitas = _repositorioReceita.GetAll().ToList();
+
+            List<ReceitasHomeViewModel> novidades = new List<ReceitasHomeViewModel>();
+            for (int i = 3; i <= 5; i++)
+            {
+                novidades.Add(new ReceitasHomeViewModel()
+                {
+                    Id = listaReceitas.ElementAt(i).Id,
+                    Descricao = listaReceitas.ElementAt(i).Descricao,
+                    Titulo = listaReceitas.ElementAt(i).Nome,
+                    Imagem = listaReceitas.ElementAt(i).LinkImagem,
+                });
+            }
+            return novidades;
+        }
     }
 }

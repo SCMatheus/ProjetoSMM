@@ -11,5 +11,7 @@ namespace CozinhaDeVo.Servicos.Interfaces
     public interface IServicoHome
     {
         List<ReceitasHomeViewModel> GetReceitasDestaques();
+        List<ReceitasHomeViewModel> GetReceitasNovidades();
+        List<ReceitasHomeViewModel> GetReceitasDoChef();
     }
 }
