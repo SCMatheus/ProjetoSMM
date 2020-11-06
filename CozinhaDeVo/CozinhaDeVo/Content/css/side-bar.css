@@ -4,14 +4,15 @@
 }
 
 .btn-menu {
+    font-size: 1.2rem !important;
     background: #15B6D6;
     color: whitesmoke;
     transition: background-color 0.2s;
 }
 
-    .btn-menu:hover {
-        background: #17D6EB;
-    }
+.btn-menu:hover {
+    background: #17D6EB;
+}
 
 #icone-busca {
     width: 1.4rem;
@@ -38,7 +39,8 @@ h1 > a:hover {
     }
 
 .titulo-menu {
-    padding: 10px 7px 2px 4px;
+    margin-top: 1rem;
+    width: 20rem;
     font-weight: 700;
     font-size: 30px;
 }
@@ -49,7 +51,7 @@ h1 > a:hover {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: inherit;
     white-space: nowrap;
     color: whitesmoke;
@@ -78,7 +80,7 @@ h1 > a:hover {
     font-size: 30px;
     color: whitesmoke;
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 #wrapper {
@@ -87,22 +89,23 @@ h1 > a:hover {
 
 #sidebar-wrapper {
     min-height: 100vh;
-    margin-left: -15rem;
+    margin-left: -20rem;
     -webkit-transition: margin .25s ease-out;
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
 }
 
     #sidebar-wrapper .sidebar-heading {
         padding: 1.30rem 1.25rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #sidebar-wrapper .list-group {
-        width: 15rem;
+        margin-top: 1rem;
+        width: 20rem;
     }
 
 #page-content-wrapper {
@@ -124,7 +127,7 @@ h1 > a:hover {
     }
 
     #wrapper.toggled #sidebar-wrapper {
-        margin-left: -15rem;
+        margin-left: -20rem;
     }
 
     .footer {
