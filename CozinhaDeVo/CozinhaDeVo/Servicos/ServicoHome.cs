@@ -41,7 +41,7 @@ namespace CozinhaDeVo.Servicos
             var listaReceitas = _repositorioReceita.GetAll().ToList();
 
             List<ReceitasHomeViewModel> doChef = new List<ReceitasHomeViewModel>();
-            for (int i = 3; i <= 5; i++)
+            for (int i = 6; i <= 8; i++)
             {
                 doChef.Add(new ReceitasHomeViewModel()
                 {
