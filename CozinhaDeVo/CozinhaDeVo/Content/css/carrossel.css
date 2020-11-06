@@ -45,3 +45,15 @@
     color: white;
     padding-right: 2rem;
 }
+
+.receita-carousel-next {
+    width: 10vh;
+    height: 10vh;
+    top: 12rem;
+}
+
+.receita-carousel-prev {
+    width: 10vh;
+    height: 10vh;
+    top: 12rem;
+}
